@@ -1,0 +1,197 @@
+{
+    "name": "Capabilities",
+    "children": [{
+        "name": "Detect",
+        "children": [{
+            "name": "Detect by Media",
+            "children": [{
+                "name": "Detect object from Image",
+                "children": [{
+                  "name": "Detect Person from image",
+                  "children": [{
+                    "name": "Detect Face from image",
+                    "children": [{
+                      "name": "How Old Am I 2017 - Age Scan"
+                      }]
+                    }]
+                  }, {
+                    "name": "Detect Text from image",
+                    "children": [{
+                      "name": "Detect Face from image",
+                      "children": [{
+                        "name": "How Old Am I 2017 - Age Scan"
+                        }]
+                      }]
+                    }]
+            }, {
+                "name": "Detect object from Text",
+                "children": [{
+                  "name": "Detect Person from image",
+                  "children": [{
+                    "name": "Detect Face from image",
+                    "children": [{
+                      "name": "How Old Am I 2017 - Age Scan"
+                      }]
+                    }]
+                  }, {
+                    "name": "Detect Text from image",
+                    "children": [{
+                      "name": "Detect Face from image",
+                      "children": [{
+                        "name": "How Old Am I 2017 - Age Scan"
+                        }]
+                      }]
+                    }]
+            }, {
+                "name": "Detect object from Image",
+                "children": [{
+                  "name": "Detect Person from image",
+                  "children": [{
+                    "name": "Detect Face from image",
+                    "children": [{
+                      "name": "How Old Am I 2017 - Age Scan"
+                      }]
+                    }]
+                  }, {
+                    "name": "Detect Text from image",
+                    "children": [{
+                      "name": "Detect Face from image",
+                      "children": [{
+                        "name": "How Old Am I 2017 - Age Scan"
+                        }]
+                      }]
+                    }]
+            }, {
+                "name": "Detect object from Space",
+                "size": 743
+            }]
+        }, {
+            "name": "Detect by Object",
+            "children": [{
+                "name": "Detect Person",
+                "children": [{
+                  "name": "Detect Face from image",
+                  "children": [{
+                    "name": "How Old Am I 2017 - Age Scan"
+                    }]
+                  }],
+                "name": "Detect Person",
+                "size": 5731
+            }, {
+                "name": "MaxFlowMinCut",
+                "size": 7840
+            }, {
+                "name": "ShortestPaths",
+                "size": 5914
+            }, {
+                "name": "SpanningTree",
+                "size": 3416
+            }]
+        }]
+    }, {
+        "name": "Identfy",
+        "children": [{
+            "name": "Identify by Media",
+            "children": [{
+                "name": "ArrayInterpolator",
+                "size": 1983
+            }, {
+                "name": "ColorInterpolator",
+                "size": 2047
+            }, {
+                "name": "DateInterpolator",
+                "size": 1375
+            }, {
+                "name": "Interpolator",
+                "size": 8746
+            }, {
+                "name": "MatrixInterpolator",
+                "size": 2202
+            }, {
+                "name": "NumberInterpolator",
+                "size": 1382
+            }, {
+                "name": "ObjectInterpolator",
+                "size": 1629
+            }, {
+                "name": "PointInterpolator",
+                "size": 1675
+            }, {
+                "name": "RectangleInterpolator",
+                "size": 2042
+            }]
+        }, {
+            "name": "Identify by Object",
+            "children": [{
+                "name": "ArrayInterpolator",
+                "size": 1983
+            }, {
+                "name": "ColorInterpolator",
+                "size": 2047
+            }, {
+                "name": "DateInterpolator",
+                "size": 1375
+            }, {
+                "name": "Interpolator",
+                "size": 8746
+            }, {
+                "name": "MatrixInterpolator",
+                "size": 2202
+            }, {
+                "name": "NumberInterpolator",
+                "size": 1382
+            }, {
+                "name": "ObjectInterpolator",
+                "size": 1629
+            }, {
+                "name": "PointInterpolator",
+                "size": 1675
+            }, {
+                "name": "RectangleInterpolator",
+                "size": 2042
+            }]
+        }]
+    }, {
+        "name": "Forecast",
+        "children": [{
+            "name": "Forecast by Object",
+            "children": [{
+                "name": "Forecast likelihood",
+                "size": 721
+            }, {
+                "name": "Forecast future value",
+                "size": 4294
+            }]
+        }]
+    }, {
+        "name": "Compose",
+        "children": [{
+            "name": "Compose by Media",
+            "children": [{
+                "name": "Compose TEXT",
+                "size": 721
+            }, {
+                "name": "Compoose IMAGE",
+                "size": 4294
+            }, {
+                "name": "Compoose SOUND",
+                "size": 4294
+            }, {
+                "name": "Compoose SPACE",
+                "size": 4294
+            }]
+        }]
+    }, {
+        "name": "Act",
+        "children": [{
+            "name": "Act",
+            "children": [{
+                "name": "Repeat calculation simply",
+                "size": 721
+            }, {
+                "name": "Doing something new through repetition",
+                "size": 4294
+            }]
+        }]
+    }]
+}
