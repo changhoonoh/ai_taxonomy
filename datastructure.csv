@@ -1,0 +1,228 @@
+no,example,most_detailed_description,verb,verb2,object1,object2,object3,media1,media2
+1,Google Search,Detect phone number in search words,Detect,read,entity,phone number,,text,search box
+1,Google Search,Detect address in text search words,Detect,read,entity,address,,text,search box
+1,Google Search,Detect person's name in search words,Detect,read,entity,person,name,text,search box
+1,Google Search,Detect business' name in search words,Detect,read,entity,business,name,text,search box
+1,Google Search,Detect place's name in search words,Detect,read,entity,place,name,text,search box
+1,Google Search,Detect question in search words,Detect,read,entity,question,,text,search box
+1,Google Search,Identify the intent of a question in search words,Identify,classify,,intent,question,text,search box
+1,Google Search,Identify (rank by best fit) web pages to the search words,Identify,classify,document,web pages,,text,
+2,Gmail Smart Compose,Detect person's name in email,Detect,read,entity,person,name,text,email
+2,Gmail Smart Compose,Detect place's name in email,Detect,read,entity,place,name,text,email
+2,Gmail Smart Compose,Detect time and date in email,Detect,read,entity,time and date,,text,email
+2,Gmail Smart Compose,Identify what user is going to type to complete the sentence,Identify,rank,,words,,text,email
+3,Email Spam Filter,Detect words triggering spam in email,Detect,read,trigger,words,,text,email
+3,Email Spam Filter,Detect phrases triggering spam in email,Detect,read,trigger,phrases,,text,email
+3,Email Spam Filter,Detect links triggering spam in email,Detect,read,entity,links,,text,email
+3,Email Spam Filter,Identify the sender address of the email,Identify,classify,,sender,address,text,email
+3,Email Spam Filter,Identify spam in email,Identify,classify,,spam,,text,email
+4,Email Entity Recognition,Detect time and date in email,Detect,read,entity,time and date,,text,email
+4,Email Entity Recognition,Detect links in email,Detect,read,entity,links,,text,email
+4,Email Entity Recognition,Detect phone number in email,Detect,read,entity,phone number,,text,email
+4,Email Entity Recognition,Detect address in email,Detect,read,entity,address,,text,email
+4,Email Entity Recognition,Detect location in email,Detect,read,entity,location,,text,email
+4,Email Entity Recognition,"Detect action in email (e.g. meet, call)",Detect,read,entity,action,,text,email
+5,Amazon Echo Sound localization,Identify direction human voice is coming from in sound,Identify,classify,,voice ,direction,sound,speaker
+6,Amazon Echo Voice Interaction,Detect human voice in sound,Detect,hear,person,voice,,sound,speaker
+6,Amazon Echo Voice Interaction,Detect words in sound (e.g. wake-up word),Detect,hear,,words,,sound,speaker
+6,Amazon Echo Voice Interaction,Identify speaker in sound,Identify,classify,person,speaker,,sound,speaker
+6,Amazon Echo Voice Interaction,Identify words in sound,Identify,classify,,words,,sound,speaker
+6,Amazon Echo Voice Interaction,Detect phone number in words,Detect,hear,entity,phone number,,sound,speaker
+6,Amazon Echo Voice Interaction,Detect address in words,Detect,hear,entity,address,,sound,speaker
+6,Amazon Echo Voice Interaction,Identify the intent of a question,Identify,classify,,question,intent,sound,speaker
+6,Amazon Echo Voice Interaction,Identify the best matching response to the question,Identify,rank,,response,,sound,speaker
+6,Amazon Echo Voice Interaction,Compose an response to the question,Compose,assemble,,response,,text,speaker
+6,Amazon Echo Voice Interaction,Compose text to speech ,Compose,synthesize,,text,,sound,speaker
+7,Google Translate,Identify language in text,Identify,classify,,language,,text,text field
+7,Google Translate,Identify words matching different language,Identify,classify,,words,different language,text,text field
+7,Google Translate,Identify phrases matching in different language,Identify,classify,,phrases,different language,text,text field
+7,Google Translate,Compose translated words,Compose,translate,,words,,text,text field
+8,Snapchat face filter,Detect person’s faces from what camera is capturing,Detect,see,,person,face,image,camera
+8,Snapchat face filter,Identify landmarks of the detected face,Identify,classify,,landmark,face,image,camera
+8,Snapchat face filter,Compose a face with a filter according to the landmarks,Compose,transform ,,face,filter,image,camera
+9,TikTok Video feed,Identify a set of similar videos clips that the user will likely intereseted in,Identify,curate,content,videos,,-,
+10,Woebot,Detect entities in the user's response,Detect,read,,entity,,text,user response
+10,Woebot,Identify intent of the user's response,Identify,classify ,,intent ,,text,user response
+10,Woebot,Identify the best matching response to the question,Identify,rank,,response,,sound,speaker
+10,Woebot,Compose an response to the question,Compose,assemble,,response,,text,speaker
+11,Amazon warehouse allocation,Forecast the likelihood of users’ purchasing items,Forecast,predict,,likelihood,purchases,-,
+12,Apple iOS Face ID,Detect person’s face in 3D space,Detect,see,,person,face,3D space,depth-camera
+12,Apple iOS Face ID,Identify face in 3D space,Identify,classify,,person,face,3D space,depth-camera
+13,Google Maps,Detect place's name in search box,Detect,read,entity,place,name,text,search box
+13,Google Maps,Detect address in search box,Detect,read,entity,address,,text,search box
+13,Google Maps,Identify destination from the search term,Identify,classify,,destination,location,text,search box
+13,Google Maps,Identify possible routes from starting point to destination,Identify,rank,,routes,,,
+13,Google Maps,Forecast how long it will take to the destination,Forecast,predict,future value,time,,-,
+14,Siri,Detect human voice in sound,Detect,hear,person,voice,,sound,speaker
+14,Siri,Detect words in sound (e.g. wake-up word),Detect,hear,,words,,sound,speaker
+14,Siri,Identify speaker in sound,Identify,classify,person,speaker,,sound,speaker
+14,Siri,Identify words in sound,Identify,classify,,words,,sound,speaker
+14,Siri,Detect phone number in words,Detect,hear,entity,phone number,,sound,speaker
+14,Siri,Detect address in words,Detect,hear,entity,address,,sound,speaker
+14,Siri,Identify the intent of a question,Identify,classify,,question,intent,sound,speaker
+14,Siri,Identify the best matching response to the question,Identify,rank,,response,,sound,speaker
+14,Siri,Compose an response to the question,Compose,assemble,,response,,text,speaker
+14,Siri,Compose text to speech ,Compose,synthesize,,text,,sound,speaker
+15,IKEA PLACE,Detect flat surface in 3D space,Detect,see,,surface,flat,3D space,camera
+15,IKEA PLACE,Identify landmarks of the surface,Identify,classify,,landmarks,surface,3D space,camera
+15,IKEA PLACE,Compose 3D item to the surface,Compose,transform,surface,3d item,,3D space,camera
+16,Netflix personalized media cover ,Identify a thumbnail of content to make the media more appealing to the user,Identify,rank,content,thumbnail,,-,
+17,Apple Watch workout detection,Detect changes in users' movements,Detect,sense,,movement,,motion,
+17,Apple Watch workout detection,Identify what changes in users' movement are,Identify,classify,,movement,,motion,
+18,HealthAI,Detect moles in image,Detect,see,object,mole,,image,camera
+18,HealthAI,Detect tissue growth of a mole in image,Detect,see,object,growth,mole,image,camera
+18,HealthAI,Identify whether the growth of the mole in image is risky or not,Identify,classify,object,riskness,mole,image,
+19,Grammarly ,Identify whether the text user entered is (grammatically) correct or not,Identify,classify,,corectness,word,text,text field
+19,Grammarly ,Identify words that are more suitable to replace the incorrect part,Identify,rank,,words,matching,text,text field
+20,Nest thermostat,Detect whether somebody is home or not. (Detect person's movement) ,Detect,sense,,person,existence,space,
+20,Nest thermostat,Forecast whether the person will stay at home or not at a certain time,Forecast,predict,likelihood,person,existence,space,
+20,Nest thermostat,Forecast what temperature users like - how cool it should be and how warm it should be,Forecast,predict,future value,temperature,preferred,-,
+21,Drones,Detect entities around it with various sensors,Detect,sense,,object,,space,
+21,Drones,Identify what the detected entities are,Identify,classify,,object,,space,
+21,Drones,Identify the best routes to the destination,Identify,rank,,route,,-,
+21,Drones,Forecast how long it will take to the destination,Forecast,predict,future value,time,,-,
+21,Drones,Act (re-calculate) constantly the best way of getting to the destination according to the conditions,Act,re-calculate,,route,,-,
+22,Clarity Money,Identify users’ expenditure patterns,Identify,classify,,pattern,expenditure,-,
+23,BirdNET,Detect bird sound from the sound around it,Detect,hear,object,bird,,sound,
+23,BirdNET,Identify which species of bird the sound is detected,Identify,classify,object,bird,,sound,
+24,AirBnB Recommendations,Identify houses that users might want to stay in during their travel,Identify,rank,place,house,,-,
+25,"Quick, Draw!",Detect strokes of the user's drawing,Detect,see,drawing,stroke,,image,canvas
+25,"Quick, Draw!",Identify what the user is drawing,Identify,classify,,object,,image,canvas
+26,Air Visual,"Forecast what the air quality will be in the future, analyzing the given data. ",Forecast,predict,future value,air quality,,-,
+27,Hopper,Forecast what the flight ticket price will be ,Forecast,predict,future value,flight price,,-,
+28,Tesla AutoPilot,Detect traffic signs surroundings,Detect,see,object,traffic sign,,space,
+28,Tesla AutoPilot,Detect lanes in surroundings,Detect,see,object,lane,,space,
+28,Tesla AutoPilot,Detect vehicles in surroundings,Detect,see,object,vehicle,,space,
+28,Tesla AutoPilot,Detect obstacles in surroundings,Detect,see,object,obstacle,,space,
+28,Tesla AutoPilot,Identify what the detected entities are,Identify,classfiy,,object,,space,
+28,Tesla AutoPilot,Identify possible routes to the destination,Identify,rank,,route,,-,
+28,Tesla AutoPilot,Act: recalculate constantly the best way of getting to the destination according to the conditions,Act,re-calculate,,route,,-,
+29,Socratic,Detect math problems in image (camera),Detect,see,,text,,image,camera
+29,Socratic,Detect entities in problem captured from image,Detect,read,entity,text,,text,camera
+30,Facebook friend tagger,Detect person's face in image,Detect,see,,person,face,image,
+30,Facebook friend tagger,Identify whose face is from user's friends,Identify,classify,,person,face,image,
+31,Gradient: DNA Ethnicity AI Test,Detect person's face in image  (camera),Detect,see,,person,face,image,camera
+31,Gradient: DNA Ethnicity AI Test,Identify ethnicity of the detected face,Identify,classify,person,face,ethnicity,image,camera
+32,Pinterest,Identify pins that users are likely to be interested in,Identify,curate,content,pin,,-,
+33,Talk to Transformer,Compose completed text by adding sentences that match the user's input,Compose,generate,,text,,,text field
+34,Prisma,Transform a user's picture into a different style of painting,Compose,transform,content,picture,style,image,
+35,Magenta Studio,Synthesize users' music files in a new style,Compose,synthesize,content,music,style,sound,
+36,Autodesk Generative Design,Generate 3D designs by considering constraints the user has set,Compose,generate,content,3D design,,image,
+36,Autodesk Generative Design,Act: re-generate constantly creating new 3D designs in consideration of constraints,Act,re-generate,content,3D design,,image,
+37,Google News,Identify a set of similar news that users most likely want to read,Identify,curate,,news,,-,
+38,Amazon's Recommender,Identify a set of items that customers who viewed the item also viewed,Identify,curate,,items,,-,
+39,Google Photos Face Detection,Detect faces in users' photo album,Detect,see,,person,face,image,
+39,Google Photos Face Detection,Identify faces in users' photo album,Identify,classify,,person,face,image,
+40,iOS Siri App suggestion,Identify apps that the user might want to do next at just the right time,Identify,rank,,app,,-,
+41,Instagram’s Search suggestion,Identify a set of photos that users most likely want to see,Identify,curate,content,photo,,-,
+41,Instagram’s Search suggestion,Identify a set of videos that users most likely want to see,Identify,curate,content,video,,-,
+42,FaceApp Face transformation,Detect faces in image (camera),Detect,see,person,face,,image,
+42,FaceApp Face transformation,Identify landmarks of the detected face,Identify,classify,person,landmark,,image,
+42,FaceApp Face transformation,Compose a face filter according to the landmarks,Compose,transform,person,face,,image,
+43,Angry Birds AR's 3D space recognition ,Detect flat surface in 3D space,Detect,see,,surface,flat,3D space,camera
+43,Angry Birds AR's 3D space recognition ,Identify landmarks of the surface,Identify,classify,,landmarks,surface,3D space,camera
+43,Angry Birds AR's 3D space recognition ,Compose 3D graphics to the surface,Compose,transform,surface,3d graphics,,3D space,camera
+44,Uber Algorithm,Identify available drivers nearby,Identify,rank,person,driver,,-,
+44,Uber Algorithm,Forecast how long it will take the driver to pick up the passenger,Forecast,predict,future value,time,pick up,-,
+44,Uber Algorithm,Forecast how long it will take to get to the destination,Forecast,predict,future value,time,arrive,-,
+44,Uber Algorithm,Forecast the fare to the destination,Forecast,predict,future value,price,,-,
+45,iOS Photo app People,Detect people's face in images in the user's photo album,Detect,see,,person,face,image,
+45,iOS Photo app People,Identify people in the images to classify the pictures by them,Identify,classify,,person,face,image,
+46,YouTube Suggested Video,Identify a personalized list of videos that a user may be intereststed in watching,Identify,curate,content,video,,-,
+47,LinkedIn Home feed,"Identify a set of posts about jobs, topics, or connections that a user might be interested in to build his/her career",Identify,curate,,post,,-,
+48,Prime Video Recommendation,Identify a set of shows or movies that users might be interersted in,Identify,curate,content,movie,,-,
+49,Diet Camera AI's Food detection and identification,Detect food in image,Detect,see,object,food,,image,
+49,Diet Camera AI's Food detection and identification,Identify food is in image,Identify,classify,object,food,,image,
+50,Amazon AR's 3D space recognition,Detect 3D space from what camera is capturing,Detect,see,,3d space,,space,camera
+50,Amazon AR's 3D space recognition,Identify landmarks of the space,Identify,classify,,landmarks,,space,camera
+50,Amazon AR's 3D space recognition,Compose 3D items to the detected space,Compose,transform,,3d items,,space,camera
+51,SwiftKey Keyboard Text prediction,Detect entities of text that the user typed,Detect,read,words,entity,,text,
+51,SwiftKey Keyboard Text prediction,Identify words or text that the user will most likely type,Identify,rank,,words,,text,
+52,Twitter Home feed,Identify a curated list of tweets from the accounts that the user follows,Identify,curate,post,tweet,,-,
+53,Google Home Speech to text,Detect human voice in sound,Detect,hear,person,voice,,sound,speaker
+53,Google Home Speech to text,Detect words in sound (e.g. wake-up word),Detect,hear,,words,,sound,speaker
+53,Google Home Speech to text,Identify speaker in sound,Identify,classify,person,speaker,,sound,speaker
+53,Google Home Speech to text,Identify words in sound,Identify,classify,,words,,sound,speaker
+53,Google Home Speech to text,Detect phone number in words,Detect,hear,entity,phone number,,sound,speaker
+53,Google Home Speech to text,Detect address in words,Detect,hear,entity,address,,sound,speaker
+53,Google Home Speech to text,Identify the intent of a question,Identify,classify,,question,intent,sound,speaker
+53,Google Home Speech to text,Identify the best matching response to the question,Identify,rank,,response,,sound,speaker
+53,Google Home Speech to text,Compose an response to the question,Compose,assemble,,response,,text,speaker
+53,Google Home Speech to text,Compose text to speech ,Compose,synthesize,,text,,sound,speaker
+54,Bixby,Detect human voice in sound,Detect,hear,person,voice,,sound,speaker
+54,Bixby,Detect words in sound (e.g. wake-up word),Detect,hear,,words,,sound,speaker
+54,Bixby,Identify speaker in sound,Identify,classify,person,speaker,,sound,speaker
+54,Bixby,Identify words in sound,Identify,classify,,words,,sound,speaker
+54,Bixby,Detect phone number in words,Detect,hear,entity,phone number,,sound,speaker
+54,Bixby,Detect address in words,Detect,hear,entity,address,,sound,speaker
+54,Bixby,Identify the intent of a question,Identify,classify,,question,intent,sound,speaker
+54,Bixby,Identify the best matching response to the question,Identify,rank,,response,,sound,speaker
+54,Bixby,Compose an response to the question,Compose,assemble,,response,,text,speaker
+54,Bixby,Compose text to speech ,Compose,synthesize,,text,,sound,speaker
+55,Google Lens,Detect text in image (camera),Detect,see,,text,,image,camera
+55,Google Lens,Identify language in text,Identify,classify,,language,,text,camera
+55,Google Lens,Identify words matching different language,Identify,classify,,words,different language,text,camera
+55,Google Lens,Identify phrases matching in different language,Identify,classify,,phrases,different language,text,camera
+55,Google Lens,Compose translated words,Compose,translate,,words,,text,camera
+55,Google Lens,Compose translated text in image (camera),Compose,transform,,text,,image,
+55,Google Lens,Detect items in image,Detect,see,,item,,image,camera
+55,Google Lens,Identify items in image,Identify,classify,,item,,image,camera
+56,PapaGo Translate,Identify language in text,Identify,classify,,language,,text,text field
+56,PapaGo Translate,Identify words matching different language,Identify,classify,,words,different language,text,text field
+56,PapaGo Translate,Identify phrases matching in different language,Identify,classify,,phrases,different language,text,text field
+56,PapaGo Translate,Compose translated words,Compose,translate,,words,,text,text field
+57,Elsa Pronunciation,Detect the user's pronounciation of words,Detect,hear,voice,pronunciation,,sound,
+57,Elsa Pronunciation,Identify what the user said with the correct American English pronounciation,Identify,classify,,pronunciation,corrrectness,sound,
+58,Replika,Detect entities in the user's response,Detect,read,,entity,,text,user response
+58,Replika,Identify intent of the user's response,Identify,classify ,,intent ,,text,user response
+58,Replika,Identify the best matching response to the question,Identify,rank,,response,,sound,speaker
+59,Spotify Discover Weekly,Identify a personalized playlist that the user is expected to enjoy listening to,Identify,curate,content,music,,-,
+60,Shazam Music Search,Detect music being played around,Detect,hear,content,music,,sound,
+60,Shazam Music Search,Identify songs in sound,Identify,classify,content,music,,sound,
+61,Microsoft visual studio intelliCode,Identify in real time the code that users most likely enter when programming,Identify,rank,,code,,text,text field
+62,Codota,Identify in real time the code that users most likely enter when programming,Identify,rank,,code,,text,text field
+63,Wysa,Detect entities in the user's response,Detect,read,,entity,,text,user response
+63,Wysa,Identify intent of the user's response,Identify,classify ,,intent ,,text,user response
+63,Wysa,Identify the best matching response to the question,Identify,rank,,response,,sound,speaker
+64,Calorie Mama's Food recognition and identification,Detect food in image,Detect,see,object,food,,image,
+64,Calorie Mama's Food recognition and identification,Identify food is in image,Identify,classify,object,food,,image,
+65,Microsoft Pix Capture Documents reading,"Detect whiteboards, documents and business cards using the smartphone camera app",Detect,see,object,document,,image,camera
+65,Microsoft Pix Capture Documents reading,Compose the document in the image in a straight-on perspective,Compose,transform,object,document,,image,
+66,Roomba's Cleaning,Detect house space,Detect,sense,,house,,space,
+66,Roomba's Cleaning,Detect obstacles in house,Detect,sense,,obstacles,house,space,
+66,Roomba's Cleaning,Identify best routes to clean the room,Identify,rank,,route,,-,
+66,Roomba's Cleaning,Act: re-calculate the routes adjusting to the envirronment,Act,re-calculate,,route,,-,
+67,Wayfair View in Room 3D space recognition,Detect flat surface in 3D space,Detect,see,,surface,flat,3D space,camera
+67,Wayfair View in Room 3D space recognition,Identify landmarks of the surface,Identify,classify,,landmarks,surface,3D space,camera
+67,Wayfair View in Room 3D space recognition,Compose 3D furniture to the surface,Compose,transform,surface,3d furniture,,3D space,camera
+68,SoundHound Query by humming (QbH),Detect music being played around,Detect,hear,content,music,,sound,
+68,SoundHound Query by humming (QbH),Identify music being played around,Identify,classify,content,music,,sound,
+69,Apple Music Recommender,Identify a personalized playlist that the user is expected to enjoy listening to.,Identify,curate,content,music,,-,
+70,Yelp's Recommender,Identify restaurants that the user might visit,Identify,rank,place,restaurant,,-,
+71,New York Times For You,Identify news articles that the user might want to read,Identify,curate,content,news,,-,
+72,Google Drive's Priority,Identify files that the user most likely to be interested in working on in a given moment,Identify,rank,document,file,,-,
+73,Booking.com search results,Identify a set of hotels that the user might want to stay,Identify,rank,place,hotel,,-,
+74,Tinder profile suggestions,Identify a set of user profiles that the user might date with ,Identify,curate,,person,profile,-,
+75,Bumble bff friends suggestions,Identify a set of user profiles that the user might want to make a friend,Identify,curate,,person,profile,-,
+76,Bank of America Erica,Detect entities in the user's response,Detect,read,,entity,,text,user response
+76,Bank of America Erica,Identify intent of the user's response,Identify,classify ,,intent ,,text,user response
+76,Bank of America Erica,Identify the best matching response to the question,Identify,rank,,response,,sound,speaker
+77,Mint: Personal Finance & Money,Identify users’ expenditure patterns,Identify,classify,,pattern,expenditure,-,
+78,TurboTax,Detect text in image,Detect,see,,text,,image,camera
+78,TurboTax,Identify words in text,Identify,classify,,words,text,image,camera
+79,How Old Am I 2017 - Age Scan,Detect face in image,Detect,see,person,face,,image,camera
+79,How Old Am I 2017 - Age Scan,Identify the age of the detected face,Identify,classify,person,face,age,image,camera
+80,AIBO (Sony),Detect human face surrounding,Detect,see,,person,face,space,
+80,AIBO (Sony),Identify person face surrounding,Identify,identify,,person,face,space,
+80,AIBO (Sony),Detect house space,Detect,sense,,house,,space,
+80,AIBO (Sony),Detect obstacles surrounding,Detect,sense,object,obstacle,,space,
+80,AIBO (Sony),Identify fastest route to the destination,Identify,rank,,route,,-,
+80,AIBO (Sony),Act: re-calculate its behaviors constantly updating its data in the cloud,Act,re-calculate,,behavior,,-,
+81,Google Breast Cancer Screening,Detect tumors in the image,Detect,see,object,tumor,,image,
+81,Google Breast Cancer Screening,Identify the risk of detected tumors,Identify,classify,,riskness,tumor,image,
+82,Google Flights price prediction,Forecast what the flight ticket price will be ,Forecast,predict,future value,flight pricce,,-,
+83,PredPol,Forecast the likelihood of crimes occurring in each region.,Forecast,predict,,likelihood,crime,-,
+84,Walmart online item recommendation,Identify a set of items that customers who viewed the item also viewed,Identify,curate,,items,,-,
+85,Hotels.com search results,Identify hotel rooms that the user might want to stay,Identify,rank,place,hotel,,-,
+86,Duolingo CEFR Checker,Identify CEFR level of each word from text,Identify,classify,,Level,words,text,
+86,Duolingo CEFR Checker,Identify users' English proficiency level,Identify,classify,,Proficiency,words,text,

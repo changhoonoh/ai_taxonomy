@@ -1,5 +1,5 @@
 // Get JSON data
-treeJSON = d3.json("flare.json", function(error, treeData) {
+treeJSON = d3.json("json_file_name.json", function(error, treeData) {
 console.log(treeData);
 console.log(error);
 console.log(treeJSON);
@@ -375,10 +375,10 @@ console.log(treeJSON);
 
         // Set widths between levels based on maxLabelLength.
         nodes.forEach(function(d) {
-            d.y = (d.depth * (maxLabelLength * 10)); //maxLabelLength * 10px
+            // d.y = (d.depth * (maxLabelLength * 10)); //maxLabelLength * 10px
             // alternatively to keep a fixed scale one can set a fixed depth per level
             // Normalize for fixed-depth by commenting out below line
-            // d.y = (d.depth * 500); //500px per level.
+            d.y = (d.depth * 200); //500px per level.
         });
 
         // Update the nodes…
@@ -430,6 +430,19 @@ console.log(treeJSON);
             .on("mouseout", function(node) {
                 outCircle(node);
             });
+
+            nodeEnter
+              .append("a")
+                 .attr("xlink:href", function (d) { return "http://www.example.com/flare/" + d.name; })
+              .append("rect")
+                  .attr("class", "clickable")
+                  .attr("y", -6)
+                  .attr("x", function (d) { return d.children || d._children ? -60 : 10; })
+                  .attr("width", 50) //2*4.5)
+                  .attr("height", 12)
+                  .style("fill", "lightsteelblue")
+                  .style("fill-opacity", .3)        // set to 1e-6 to make transparent
+                  ;
 
 
         // Update the text to reflect whether node has children or not.
