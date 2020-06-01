@@ -1,0 +1,16 @@
+                                {
+                                    "name": "Facebook friend tagger",
+                                    "children": [
+                                        {
+                                            "name": "Detect person's face in image",
+                                            "children": [],
+                                            "test": "most_detailed_description"
+                                        },
+                                        {
+                                            "name": "Identify whose face is from user's friends",
+                                            "children": [],
+                                            "test": "most_detailed_description"
+                                        }
+                                    ],
+                                    "test": "Example"
+                                }

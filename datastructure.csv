@@ -23,9 +23,9 @@ no,example,most_detailed_description,verb,verb2,object1,object2,object3,media1,m
 4,Email Entity Recognition,Detect location in email,Detect,read,entity,location,,text,email
 4,Email Entity Recognition,"Detect action in email (e.g. meet, call)",Detect,read,entity,action,,text,email
 5,Amazon Echo Sound localization,Identify direction human voice is coming from in sound,Identify,classify,,voice ,direction,sound,speaker
-6,Amazon Echo Voice Interaction,Detect human voice in sound,Detect,hear,person,voice,,sound,speaker
+6,Amazon Echo Voice Interaction,Detect human voice in sound,Detect,hear,person,person,voice,sound,speaker
 6,Amazon Echo Voice Interaction,Detect words in sound (e.g. wake-up word),Detect,hear,,words,,sound,speaker
-6,Amazon Echo Voice Interaction,Identify speaker in sound,Identify,classify,person,speaker,,sound,speaker
+6,Amazon Echo Voice Interaction,Identify speaker in sound,Identify,classify,person,person,voice,sound,speaker
 6,Amazon Echo Voice Interaction,Identify words in sound,Identify,classify,,words,,sound,speaker
 6,Amazon Echo Voice Interaction,Detect phone number in words,Detect,hear,entity,phone number,,sound,speaker
 6,Amazon Echo Voice Interaction,Detect address in words,Detect,hear,entity,address,,sound,speaker
@@ -53,9 +53,9 @@ no,example,most_detailed_description,verb,verb2,object1,object2,object3,media1,m
 13,Google Maps,Identify destination from the search term,Identify,classify,,destination,location,text,search box
 13,Google Maps,Identify possible routes from starting point to destination,Identify,rank,,routes,,,
 13,Google Maps,Forecast how long it will take to the destination,Forecast,predict,future value,time,,-,
-14,Siri,Detect human voice in sound,Detect,hear,person,voice,,sound,speaker
+14,Siri,Detect human voice in sound,Detect,hear,person,person,voice,sound,speaker
 14,Siri,Detect words in sound (e.g. wake-up word),Detect,hear,,words,,sound,speaker
-14,Siri,Identify speaker in sound,Identify,classify,person,speaker,,sound,speaker
+14,Siri,Identify speaker in sound,Identify,classify,person,person,voice,sound,speaker
 14,Siri,Identify words in sound,Identify,classify,,words,,sound,speaker
 14,Siri,Detect phone number in words,Detect,hear,entity,phone number,,sound,speaker
 14,Siri,Detect address in words,Detect,hear,entity,address,,sound,speaker
@@ -102,7 +102,7 @@ no,example,most_detailed_description,verb,verb2,object1,object2,object3,media1,m
 30,Facebook friend tagger,Detect person's face in image,Detect,see,,person,face,image,
 30,Facebook friend tagger,Identify whose face is from user's friends,Identify,classify,,person,face,image,
 31,Gradient: DNA Ethnicity AI Test,Detect person's face in image  (camera),Detect,see,,person,face,image,camera
-31,Gradient: DNA Ethnicity AI Test,Identify ethnicity of the detected face,Identify,classify,person,face,ethnicity,image,camera
+31,Gradient: DNA Ethnicity AI Test,Identify ethnicity of the detected face,Identify,classify,face,person,ethnicity,image,camera
 32,Pinterest,Identify pins that users are likely to be interested in,Identify,curate,content,pin,,-,
 33,Talk to Transformer,Compose completed text by adding sentences that match the user's input,Compose,generate,,text,,,text field
 34,Prisma,Transform a user's picture into a different style of painting,Compose,transform,content,picture,style,image,
@@ -117,12 +117,12 @@ no,example,most_detailed_description,verb,verb2,object1,object2,object3,media1,m
 41,Instagram’s Search suggestion,Identify a set of photos that users most likely want to see,Identify,curate,content,photo,,-,
 41,Instagram’s Search suggestion,Identify a set of videos that users most likely want to see,Identify,curate,content,video,,-,
 42,FaceApp Face transformation,Detect faces in image (camera),Detect,see,person,face,,image,
-42,FaceApp Face transformation,Identify landmarks of the detected face,Identify,classify,person,landmark,,image,
+42,FaceApp Face transformation,Identify landmarks of the detected face,Identify,classify,person,landmarks,,image,
 42,FaceApp Face transformation,Compose a face filter according to the landmarks,Compose,transform,person,face,,image,
 43,Angry Birds AR's 3D space recognition ,Detect flat surface in 3D space,Detect,see,,surface,flat,3D space,camera
 43,Angry Birds AR's 3D space recognition ,Identify landmarks of the surface,Identify,classify,,landmarks,surface,3D space,camera
 43,Angry Birds AR's 3D space recognition ,Compose 3D graphics to the surface,Compose,transform,surface,3d graphics,,3D space,camera
-44,Uber Algorithm,Identify available drivers nearby,Identify,rank,person,driver,,-,
+44,Uber Algorithm,Identify available drivers nearby,Identify,rank,person,person,driver,-,
 44,Uber Algorithm,Forecast how long it will take the driver to pick up the passenger,Forecast,predict,future value,time,pick up,-,
 44,Uber Algorithm,Forecast how long it will take to get to the destination,Forecast,predict,future value,time,arrive,-,
 44,Uber Algorithm,Forecast the fare to the destination,Forecast,predict,future value,price,,-,
@@ -139,9 +139,9 @@ no,example,most_detailed_description,verb,verb2,object1,object2,object3,media1,m
 51,SwiftKey Keyboard Text prediction,Detect entities of text that the user typed,Detect,read,words,entity,,text,
 51,SwiftKey Keyboard Text prediction,Identify words or text that the user will most likely type,Identify,rank,,words,,text,
 52,Twitter Home feed,Identify a curated list of tweets from the accounts that the user follows,Identify,curate,post,tweet,,-,
-53,Google Home Speech to text,Detect human voice in sound,Detect,hear,person,voice,,sound,speaker
+53,Google Home Speech to text,Detect human voice in sound,Detect,hear,person,person,voice,sound,speaker
 53,Google Home Speech to text,Detect words in sound (e.g. wake-up word),Detect,hear,,words,,sound,speaker
-53,Google Home Speech to text,Identify speaker in sound,Identify,classify,person,speaker,,sound,speaker
+53,Google Home Speech to text,Identify speaker in sound,Identify,classify,person,person,voice,sound,speaker
 53,Google Home Speech to text,Identify words in sound,Identify,classify,,words,,sound,speaker
 53,Google Home Speech to text,Detect phone number in words,Detect,hear,entity,phone number,,sound,speaker
 53,Google Home Speech to text,Detect address in words,Detect,hear,entity,address,,sound,speaker
@@ -149,9 +149,9 @@ no,example,most_detailed_description,verb,verb2,object1,object2,object3,media1,m
 53,Google Home Speech to text,Identify the best matching response to the question,Identify,rank,,response,,sound,speaker
 53,Google Home Speech to text,Compose an response to the question,Compose,assemble,,response,,text,speaker
 53,Google Home Speech to text,Compose text to speech ,Compose,synthesize,,text,,sound,speaker
-54,Bixby,Detect human voice in sound,Detect,hear,person,voice,,sound,speaker
+54,Bixby,Detect human voice in sound,Detect,hear,person,person,voice,sound,speaker
 54,Bixby,Detect words in sound (e.g. wake-up word),Detect,hear,,words,,sound,speaker
-54,Bixby,Identify speaker in sound,Identify,classify,person,speaker,,sound,speaker
+54,Bixby,Identify speaker in sound,Identify,classify,person,person,voice,sound,speaker
 54,Bixby,Identify words in sound,Identify,classify,,words,,sound,speaker
 54,Bixby,Detect phone number in words,Detect,hear,entity,phone number,,sound,speaker
 54,Bixby,Detect address in words,Detect,hear,entity,address,,sound,speaker
@@ -210,8 +210,8 @@ no,example,most_detailed_description,verb,verb2,object1,object2,object3,media1,m
 77,Mint: Personal Finance & Money,Identify users’ expenditure patterns,Identify,classify,,pattern,expenditure,-,
 78,TurboTax,Detect text in image,Detect,see,,text,,image,camera
 78,TurboTax,Identify words in text,Identify,classify,,words,text,image,camera
-79,How Old Am I 2017 - Age Scan,Detect face in image,Detect,see,person,face,,image,camera
-79,How Old Am I 2017 - Age Scan,Identify the age of the detected face,Identify,classify,person,face,age,image,camera
+79,How Old Am I 2017 - Age Scan,Detect face in image,Detect,see,person,person,face,image,camera
+79,How Old Am I 2017 - Age Scan,Identify the age of the detected face,Identify,classify,age,person,face,image,camera
 80,AIBO (Sony),Detect human face surrounding,Detect,see,,person,face,space,
 80,AIBO (Sony),Identify person face surrounding,Identify,identify,,person,face,space,
 80,AIBO (Sony),Detect house space,Detect,sense,,house,,space,
@@ -225,4 +225,4 @@ no,example,most_detailed_description,verb,verb2,object1,object2,object3,media1,m
 84,Walmart online item recommendation,Identify a set of items that customers who viewed the item also viewed,Identify,curate,,items,,-,
 85,Hotels.com search results,Identify hotel rooms that the user might want to stay,Identify,rank,place,hotel,,-,
 86,Duolingo CEFR Checker,Identify CEFR level of each word from text,Identify,classify,,Level,words,text,
-86,Duolingo CEFR Checker,Identify users' English proficiency level,Identify,classify,,Proficiency,words,text,
+86,Duolingo CEFR Checker,Identify users' English proficiency level,Identify,classify,,proficiency,words,text,

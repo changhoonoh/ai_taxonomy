@@ -38,13 +38,14 @@ with open('datastructure.csv', 'r') as f:
     for row in reader:
         no, example, most_detailed_description, verb, verb2, object1, object2, object3, media1, media2 = row
         root.child(verb, extra={'test' : 'Verb 1'}) \
-            .child(verb2, extra={'test' : 'Verb 2'}) \
-            .child(object1, extra={'test' : 'Object 1'}) \
             .child(object2, extra={'test' : 'Object 2'}) \
-            .child(object3, extra={'test' : 'Object 3'}) \
             .child(media1, extra={'test' : 'Media 1'}) \
-            .child(media2, extra={'test' : 'Media 2'}) \
-            .child(example, extra={'test' : 'Example'})
+            .child(example, extra={'test' : 'Example'}) \
+            .child(most_detailed_description, extra={'test' : 'most_detailed_description'})
+            # .child(verb2, extra={'test' : 'Verb 2'}) \
+            # .child(object1, extra={'test' : 'Object 1'}) \
+            # .child(object3, extra={'test' : 'Object 3'}) \
+            # .child(media2, extra={'test' : 'Media 2'}) \
 
 
 with open('json_file_name.json', 'w') as jsonFile:
