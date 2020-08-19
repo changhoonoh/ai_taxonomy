@@ -47,20 +47,20 @@ no,example,most_detailed_description,verb,verb1,object1,object2,object3,media,me
 8,Google Translate,Compose translated words,Compose,translate,,words,,text,text field,Productivity,Connectionism
 9,Snapchat Face Filter,Detect person’s faces from what camera is capturing,Detect,see,,person,face,image,camera,Social Media,Inductive reasoning
 9,Snapchat Face Filter,Identify landmarks of the detected face,Identify,classify,,landmark,face,image,camera,Social Media,Inductive reasoning
-9,Snapchat Face Filter,Compose a face with a filter according to the landmarks,Compose,transform ,,face,filter,image,camera,Social Media,Inductive reasoning
-9,TikTok Video Feed,Identify a set of similar videos clips that the user will likely intereseted in,Identify,curate,content,videos,,-,,Social Media,Analogical modeling
+9,Snapchat Face Filter,Compose a face with a filter according to the landmarks,Compose,transform,,face,filter,image,camera,Social Media,Inductive reasoning
+9,TikTok Video Feed,Identify a set of similar videos clips that the user will likely intereseted in,Identify,curate,content,videos,,,,Social Media,Analogical modeling
 11,Woebot,Detect entities in the user's response,Detect,read,,entity,,text,user response,Health,Inductive reasoning
-11,Woebot,Identify intent of the user's response,Identify,classify ,,intent ,,text,user response,Health,Inductive reasoning
+11,Woebot,Identify intent of the user's response,Identify,classify,,intent ,,text,user response,Health,Inductive reasoning
 11,Woebot,Identify the best matching response to the question,Identify,rank,,response,,sound,speaker,Health,Inductive reasoning
 11,Woebot,Compose an response to the question,Compose,assemble,,response,,text,speaker,Health,Inductive reasoning
-12,Amazon Warehouse Allocation,Forecast the likelihood of users’ purchasing items,Forecast,predict,,likelihood,purchases,-,,Shopping,Evolutionary computation
+12,Amazon Warehouse Allocation,Forecast the likelihood of users’ purchasing items,Forecast,predict,,likelihood,purchases,,,Shopping,Evolutionary computation
 13,Apple iOS Face ID,Detect person’s face in 3D space,Detect,see,,person,face,space,depth-camera,Productivity,Connectionism
 13,Apple iOS Face ID,Identify face in 3D space,Identify,classify,,person,face,space,depth-camera,Productivity,Connectionism
 14,Google Maps,Detect place's name in search box,Detect,read,entity,place,name,text,search box,Transportation,Bayesians
 14,Google Maps,Detect address in search box,Detect,read,entity,address,,text,search box,Transportation,Bayesians
 14,Google Maps,Identify destination from the search term,Identify,classify,,destination,location,text,search box,Transportation,Bayesians
 14,Google Maps,Identify possible routes from starting point to destination,Identify,rank,,routes,,,,Transportation,Bayesians
-14,Google Maps,Forecast how long it will take to the destination,Forecast,predict,future value,time,,-,,Transportation,Bayesians
+14,Google Maps,Forecast how long it will take to the destination,Forecast,predict,future value,time,,,,Transportation,Bayesians
 15,Siri App,Detect human voice in sound,Detect,hear,person,voice,,sound,speaker,Productivity,Connectionism
 15,Siri App,Detect words in sound (e.g. wake-up word),Detect,hear,,words,,sound,speaker,Productivity,Connectionism
 15,Siri App,Identify speaker in sound,Identify,classify,person,speaker,,sound,speaker,Productivity,Connectionism
@@ -82,27 +82,27 @@ no,example,most_detailed_description,verb,verb1,object1,object2,object3,media,me
 19,Grammarly ,Identify words that are more suitable to replace the incorrect part,Identify,rank,,words,matching,text,text field,Productivity,Inductive reasoning
 20,Nest Thermostat,Detect whether somebody is home or not. (Detect person's movement) ,Detect,sense,,person,existence,space,,Smart home,Inductive reasoning
 20,Nest Thermostat,Forecast whether the person will stay at home or not at a certain time,Forecast,predict,likelihood,person,existence,space,,Smart home,Inductive reasoning
-20,Nest Thermostat,Forecast what temperature users like - how cool it should be and how warm it should be,Forecast,predict,future value,temperature,preferred,-,,Smart home,Inductive reasoning
+20,Nest Thermostat,Forecast what temperature users like - how cool it should be and how warm it should be,Forecast,predict,future value,temperature,preferred,,,Smart home,Inductive reasoning
 21,Drones Auto-flying,Detect entities around it with various sensors,Detect,sense,,object,,space,,Transportation,Evolutionary computation
 21,Drones Auto-flying,Identify what the detected entities are,Identify,classify,,object,,space,,Transportation,Evolutionary computation
-21,Drones Auto-flying,Identify the best routes to the destination,Identify,rank,,route,,-,,Transportation,Evolutionary computation
-21,Drones Auto-flying,Forecast how long it will take to the destination,Forecast,predict,future value,time,,-,,Transportation,Evolutionary computation
-21,Drones Auto-flying,Act (re-calculate) constantly the best way of getting to the destination according to the conditions,Act,re-calculate,,route,,-,,Transportation,Evolutionary computation
-22,Clarity Money Expenditure Analysis,Identify users’ expenditure patterns,Identify,classify,,pattern,expenditure,-,,Transportation,Evolutionary computation
+21,Drones Auto-flying,Identify the best routes to the destination,Identify,rank,,route,,,,Transportation,Evolutionary computation
+21,Drones Auto-flying,Forecast how long it will take to the destination,Forecast,predict,future value,time,,,,Transportation,Evolutionary computation
+21,Drones Auto-flying,Act (re-calculate) constantly the best way of getting to the destination according to the conditions,Act,re-calculate,,route,,,,Transportation,Evolutionary computation
+22,Clarity Money Expenditure Analysis,Identify users’ expenditure patterns,Identify,classify,,pattern,expenditure,,,Transportation,Evolutionary computation
 23,BirdNET,Detect bird sound from the sound around it,Detect,hear,object,bird,,sound,,Education,Connectionism
 23,BirdNET,Identify which species of bird the sound is detected,Identify,classify,object,bird,,sound,,Education,Connectionism
-24,AirBnB Recommendations,Identify houses that users might want to stay in during their travel,Identify,rank,place,house,,-,,Hospitality,Bayesians
+24,AirBnB Recommendations,Identify houses that users might want to stay in during their travel,Identify,rank,place,house,,,,Hospitality,Bayesians
 25,"Quick, Draw!",Detect strokes of the user's drawing,Detect,see,drawing,stroke,,image,canvas,Entertainment,Connectionism
 25,"Quick, Draw!",Identify what the user is drawing,Identify,classify,,object,,image,canvas,Entertainment,Connectionism
-26,Air Visual,"Forecast what the air quality will be in the future, analyzing the given data. ",Forecast,predict,future value,air quality,,-,,Public,Connectionism
-27,Hopper,Forecast what the flight ticket price will be ,Forecast,predict,future value,flight price,,-,,Transportation,Bayesians
+26,Air Visual,"Forecast what the air quality will be in the future, analyzing the given data. ",Forecast,predict,future value,air quality,,,,Public,Connectionism
+27,Hopper,Forecast what the flight ticket price will be ,Forecast,predict,future value,flight price,,,,Transportation,Bayesians
 28,Tesla AutoPilot,Detect traffic signs surroundings,Detect,see,object,traffic sign,,space,,Transportation,Connectionism
 28,Tesla AutoPilot,Detect lanes in surroundings,Detect,see,object,lane,,space,,Transportation,Connectionism
 28,Tesla AutoPilot,Detect vehicles in surroundings,Detect,see,object,vehicle,,space,,Transportation,Connectionism
 28,Tesla AutoPilot,Detect obstacles in surroundings,Detect,see,object,obstacle,,space,,Transportation,Connectionism
-28,Tesla AutoPilot,Identify what the detected entities are,Identify,classfiy,,object,,space,,Transportation,Connectionism
-28,Tesla AutoPilot,Identify possible routes to the destination,Identify,rank,,route,,-,,Transportation,Connectionism
-28,Tesla AutoPilot,Act: recalculate constantly the best way of getting to the destination according to the conditions,Act,re-calculate,,route,,-,,Transportation,Connectionism
+28,Tesla AutoPilot,Identify what the detected entities are,Identify,classify,,object,,space,,Transportation,Connectionism
+28,Tesla AutoPilot,Identify possible routes to the destination,Identify,rank,,route,,,,Transportation,Connectionism
+28,Tesla AutoPilot,Act: recalculate constantly the best way of getting to the destination according to the conditions,Act,re-calculate,,route,,,,Transportation,Connectionism
 29,Socratic,Detect math problems in image (camera),Detect,see,,text,,image,camera,Education,Connectionism
 29,Socratic,Detect entities in problem captured from image,Detect,read,entity,text,,text,camera,Education,Connectionism
 30,Talk to Transformer,Compose completed text by adding sentences that match the user's input,Compose,generate,,text,,,text field,Productivity,Connectionism
@@ -110,7 +110,7 @@ no,example,most_detailed_description,verb,verb1,object1,object2,object3,media,me
 31,Facebook Friend Tagger,Identify whose face is from user's friends,Identify,classify,,person,face,image,,Social Media,Connectionism
 32,Genetic Heritage DNA Detector,Detect person's face in image  (camera),Detect,see,,person,face,image,camera,Social Media,Analogical modeling
 32,Genetic Heritage DNA Detector,Identify ethnicity of the detected face,Identify,classify,person,face,ethnicity,image,camera,Social Media,Analogical modeling
-33,Pinterest Feed,Identify pins that users are likely to be interested in,Identify,curate,content,pin,,-,,Social Media,Analogical modeling
+33,Pinterest Feed,Identify pins that users are likely to be interested in,Identify,curate,content,pin,,,,Social Media,Analogical modeling
 34,Prisma,Transform a user's picture into a different style of painting,Compose,transform,content,picture,style,image,,Social Media,Connectionism
 35,Magenta Studio,Synthesize users' music files in a new style,Compose,synthesize,content,music,style,sound,,Entertainment,Connectionism
 36,Autodesk Generative Design,Generate 3D designs by considering constraints the user has set,Compose,generate,content,3D design,,image,,Productivity,Evolutionary computation
@@ -125,31 +125,31 @@ no,example,most_detailed_description,verb,verb1,object1,object2,object3,media,me
 37,Bixby,Identify the best matching response to the question,Identify,rank,,response,,sound,speaker,Productivity,Connectionism
 37,Bixby,Compose an response to the question,Compose,assemble,,response,,text,speaker,Productivity,Connectionism
 37,Bixby,Compose text to speech ,Compose,synthesize,,text,,sound,speaker,Productivity,Connectionism
-38,Amazon's Recommender,Identify a set of items that customers who viewed the item also viewed,Identify,curate,,item,,-,,Shopping,Analogical modeling
-39,Siri Shortcuts Suggestion,Identify apps that the user might want to do next at just the right time,Identify,rank,,app,,-,,Productivity,Bayesians
-40,Instagram Explore Page,Identify a set of photos that users most likely want to see,Identify,curate,content,photo,,-,,Social Media,Analogical modeling
-40,Instagram Explore Page,Identify a set of videos that users most likely want to see,Identify,curate,content,video,,-,,Social Media,Analogical modeling
+38,Amazon's Recommender,Identify a set of items that customers who viewed the item also viewed,Identify,curate,,item,,,,Shopping,Analogical modeling
+39,Siri Shortcuts Suggestion,Identify apps that the user might want to do next at just the right time,Identify,rank,,app,,,,Productivity,Bayesians
+40,Instagram Explore Page,Identify a set of photos that users most likely want to see,Identify,curate,content,photo,,,,Social Media,Analogical modeling
+40,Instagram Explore Page,Identify a set of videos that users most likely want to see,Identify,curate,content,video,,,,Social Media,Analogical modeling
 41,FaceApp,Detect faces in image (camera),Detect,see,person,face,,image,,Social Media,Connectionism
 41,FaceApp,Identify landmarks of the detected face,Identify,classify,person,landmark,,image,,Social Media,Connectionism
 41,FaceApp,Compose a face filter according to the landmarks,Compose,transform,person,face,,image,,Social Media,Connectionism
 42,Angry Birds AR,Detect flat surface in 3D space,Detect,see,,surface,flat,space,camera,Entertainment,Connectionism
 42,Angry Birds AR,Identify landmarks of the surface,Identify,classify,,landmarks,surface,space,camera,Entertainment,Connectionism
 42,Angry Birds AR,Compose 3D graphics to the surface,Compose,transform,surface,3d graphics,,space,camera,Entertainment,Connectionism
-43,Uber Passnger/Driver Matching,Identify available drivers nearby,Identify,rank,person,driver,,-,,Transportation,Connectionism
-43,Uber Passnger/Driver Matching,Forecast how long it will take the driver to pick up the passenger,Forecast,predict,future value,time,pick up,-,,Transportation,Connectionism
-43,Uber Passnger/Driver Matching,Forecast how long it will take to get to the destination,Forecast,predict,future value,time,arrive,-,,Transportation,Connectionism
-43,Uber Passnger/Driver Matching,Forecast the fare to the destination,Forecast,predict,future value,price,,-,,Transportation,Connectionism
-44,Netflix Contents Feed,Identify a thumbnail of content to make the media more appealing to the user,Identify,rank,content,thumbnail,,-,,Entertainment,Analogical modeling
-45,LinkedIn Home Feed,"Identify a set of posts about jobs, topics, or connections that a user might be interested in to build his/her career",Identify,curate,,post,,-,,Social Media,Bayesians
-46,Facebook Watch,Identify a set of similar videos clips that the user will likely intereseted in,Identify,curate,content,videos,,-,,Social Media,Bayesians
-47,Prime Video Recommendation,Identify a set of shows or movies that users might be interersted in,Identify,curate,content,movie,,-,,Entertainment,Connectionism
+43,Uber Passnger/Driver Matching,Identify available drivers nearby,Identify,rank,person,driver,,,,Transportation,Connectionism
+43,Uber Passnger/Driver Matching,Forecast how long it will take the driver to pick up the passenger,Forecast,predict,future value,time,pick up,,,Transportation,Connectionism
+43,Uber Passnger/Driver Matching,Forecast how long it will take to get to the destination,Forecast,predict,future value,time,arrive,,,Transportation,Connectionism
+43,Uber Passnger/Driver Matching,Forecast the fare to the destination,Forecast,predict,future value,price,,,,Transportation,Connectionism
+44,Netflix Contents Feed,Identify a thumbnail of content to make the media more appealing to the user,Identify,rank,content,thumbnail,,,,Entertainment,Analogical modeling
+45,LinkedIn Home Feed,"Identify a set of posts about jobs, topics, or connections that a user might be interested in to build his/her career",Identify,curate,,post,,,,Social Media,Bayesians
+46,Facebook Watch,Identify a set of similar videos clips that the user will likely intereseted in,Identify,curate,content,videos,,,,Social Media,Bayesians
+47,Prime Video Recommendation,Identify a set of shows or movies that users might be interersted in,Identify,curate,content,movie,,,,Entertainment,Connectionism
 48,Diet Camera AI,Detect food in image,Detect,see,object,food,,image,,Health,Connectionism
 48,Diet Camera AI,Identify food is in image,Identify,classify,object,food,,image,,Health,Connectionism
 49,Amazon AR View,Detect 3D space from what camera is capturing,Detect,see,,3d space,,space,camera,Shopping,Connectionism
 49,Amazon AR View,Identify landmarks of the space,Identify,classify,,landmarks,,space,camera,Shopping,Connectionism
 49,Amazon AR View,Compose 3D items to the detected space,Compose,transform,,3d item,,space,camera,Shopping,Connectionism
-50,Facebook NewsFeed,Identify a set of posts from the accounts that the usef follows,Identify,curate,,post,,-,,Social Media,Bayesians
-51,Twitter HomeTimeline,Identify a curated list of tweets from the accounts that the user follows,Identify,curate,post,tweet,,-,,Social Media,Connectionism
+50,Facebook NewsFeed,Identify a set of posts from the accounts that the usef follows,Identify,curate,,post,,,,Social Media,Bayesians
+51,Twitter HomeTimeline,Identify a curated list of tweets from the accounts that the user follows,Identify,curate,post,tweet,,,,Social Media,Connectionism
 52,Google Home,Detect human voice in sound,Detect,hear,person,voice,,sound,speaker,Smart home,Connectionism
 52,Google Home,Detect words in sound (e.g. wake-up word),Detect,hear,,words,,sound,speaker,Smart home,Connectionism
 52,Google Home,Identify speaker in sound,Identify,classify,person,speaker,,sound,speaker,Smart home,Connectionism
@@ -165,48 +165,48 @@ no,example,most_detailed_description,verb,verb1,object1,object2,object3,media,me
 54,IKEA Place,Detect flat surface in 3D space,Detect,see,,surface,flat,space,camera,Shopping,Connectionism
 54,IKEA Place,Identify landmarks of the surface,Identify,classify,,landmarks,surface,space,camera,Shopping,Connectionism
 54,IKEA Place,Compose 3D item to the surface,Compose,transform,surface,3d item,,space,camera,Shopping,Connectionism
-55,Spotify Discover Weekly,Identify a personalized playlist that the user is expected to enjoy listening to,Identify,curate,content,music,,-,,Entertainment,Analogical modeling
+55,Spotify Discover Weekly,Identify a personalized playlist that the user is expected to enjoy listening to,Identify,curate,content,music,,,,Entertainment,Analogical modeling
 56,Kite,Identify in real time the code that users most likely enter when programming,Identify,rank,,code,,text,text field,Productivity,Connectionism
 57,Shazam Music Recognition,Detect music being played around,Detect,hear,content,music,,sound,,Entertainment,Analogical modeling
 57,Shazam Music Recognition,Identify songs in sound,Identify,classify,content,music,,sound,,Entertainment,Analogical modeling
-58,Google Drive's Priority,Identify files that the user most likely to be interested in working on in a given moment,Identify,rank,document,file,,-,,Productivity,Bayesians
-59,New York Times,Identify news articles that the user might want to read,Identify,curate,content,news,,-,,Entertainment,Bayesians
+58,Google Drive's Priority,Identify files that the user most likely to be interested in working on in a given moment,Identify,rank,document,file,,,,Productivity,Bayesians
+59,New York Times,Identify news articles that the user might want to read,Identify,curate,content,news,,,,Entertainment,Bayesians
 60,Microsoft Pix Capture Documents Reading,"Detect whiteboards, documents and business cards using the smartphone camera app",Detect,see,object,document,,image,camera,Productivity,Connectionism
 60,Microsoft Pix Capture Documents Reading,Compose the document in the image in a straight-on perspective,Compose,transform,object,document,,image,,Productivity,Connectionism
-61,Pandora's Music Recommendation,Identify a personalized playlist that the user is expected to enjoy listening to,Identify,curate,content,music,,-,,Entertainment,Analogical modeling
+61,Pandora's Music Recommendation,Identify a personalized playlist that the user is expected to enjoy listening to,Identify,curate,content,music,,,,Entertainment,Analogical modeling
 62,SoundHound Query by humming (QbH),Detect music being played around,Detect,hear,content,music,,sound,,Entertainment,Connectionism
 62,SoundHound Query by humming (QbH),Identify music being played around,Identify,classify,content,music,,sound,,Entertainment,Connectionism
-63,Yelp's Recommender,Identify restaurants that the user might visit,Identify,rank,place,restaurant,,-,,Hospitality,Analogical modeling
-64,YouTube AutoPlay,Identify a set of videos that the user might want to keep watching,Identify,curate,content,video,,- ,,Entertainment,Analogical modeling
+63,Yelp's Recommender,Identify restaurants that the user might visit,Identify,rank,place,restaurant,,,,Hospitality,Analogical modeling
+64,YouTube AutoPlay,Identify a set of videos that the user might want to keep watching,Identify,curate,content,video,,,,Entertainment,Analogical modeling
 65,Microsoft Math Solver,Detect math problems in image (camera),Detect,see,,text,,image,camera,Productivity,Analogical modeling
 65,Microsoft Math Solver,Detect entities in problem captured from image,Detect,read,entity,text,,text,camera,Productivity,Analogical modeling
-66,Tinder Profile Suggestions,Identify a set of user profiles that the user might date with ,Identify,curate,,person,profile,-,,Social Media,Connectionism
-67,Bumble Bff Friends Suggestions,Identify a set of user profiles that the user might want to make a friend,Identify,curate,,person,profile,-,,Social Media,Connectionism
-68,Booking.com Search Results,Identify a set of hotels that the user might want to stay,Identify,rank,place,hotel,,-,,Hospitality,Bayesians
-69,Grubhub Restaurants List,Identify a set of restaurants that the user might want to order food,Identify,rank,place,restaurant,,-,,Hospitality,Bayesians
-70,OpenTable Restaurant List,Identify a set of restaurants that the user might want to reserve,Identify,rank,place,restaurant,,-,,Hospitality,Bayesians
-71,Apple Music Recommender,Identify a personalized playlist that the user is expected to enjoy listening to.,Identify,curate,content,music,,-,,Entertainment,Analogical modeling
+66,Tinder Profile Suggestions,Identify a set of user profiles that the user might date with ,Identify,curate,,person,profile,,,Social Media,Connectionism
+67,Bumble Bff Friends Suggestions,Identify a set of user profiles that the user might want to make a friend,Identify,curate,,person,profile,,,Social Media,Connectionism
+68,Booking.com Search Results,Identify a set of hotels that the user might want to stay,Identify,rank,place,hotel,,,,Hospitality,Bayesians
+69,Grubhub Restaurants List,Identify a set of restaurants that the user might want to order food,Identify,rank,place,restaurant,,,,Hospitality,Bayesians
+70,OpenTable Restaurant List,Identify a set of restaurants that the user might want to reserve,Identify,rank,place,restaurant,,,,Hospitality,Bayesians
+71,Apple Music Recommender,Identify a personalized playlist that the user is expected to enjoy listening to.,Identify,curate,content,music,,,,Entertainment,Analogical modeling
 72,Wayfair View in Room,Detect flat surface in 3D space,Detect,see,,surface,flat,space,camera,Shopping,Connectionism
 72,Wayfair View in Room,Identify landmarks of the surface,Identify,classify,,landmarks,surface,space,camera,Shopping,Connectionism
 72,Wayfair View in Room,Compose 3D furniture to the surface,Compose,transform,surface,3d furniture,,space,camera,Shopping,Connectionism
 73,Roomba,Detect house space,Detect,sense,,house,,space,,Smart home,Inductive reasoning
 73,Roomba,Detect obstacles in house,Detect,sense,,obstacles,house,space,,Smart home,Inductive reasoning
-73,Roomba,Identify best routes to clean the room,Identify,rank,,route,,-,,Smart home,Inductive reasoning
-73,Roomba,Act: re-calculate the routes adjusting to the envirronment,Act,re-calculate,,route,,-,,Smart home,Inductive reasoning
+73,Roomba,Identify best routes to clean the room,Identify,rank,,route,,,,Smart home,Inductive reasoning
+73,Roomba,Act: re-calculate the routes adjusting to the envirronment,Act,re-calculate,,route,,,,Smart home,Inductive reasoning
 74,Wysa,Detect entities in the user's response,Detect,read,,entity,,text,user response,Health,Inductive reasoning
-74,Wysa,Identify intent of the user's response,Identify,classify ,,intent ,,text,user response,Health,Inductive reasoning
+74,Wysa,Identify intent of the user's response,Identify,classify,,intent ,,text,user response,Health,Inductive reasoning
 74,Wysa,Identify the best matching response to the question,Identify,rank,,response,,sound,speaker,Health,Inductive reasoning
 75,Codota,Identify in real time the code that users most likely enter when programming,Identify,rank,,code,,text,text field,Productivity,Bayesians
 76,Waymo's Auto-driving,Detect traffic signs surroundings,Detect,see,object,traffic sign,,space,,Transportation,Connectionism
 76,Waymo's Auto-driving,Detect lanes in surroundings,Detect,see,object,lane,,space,,Transportation,Connectionism
 76,Waymo's Auto-driving,Detect vehicles in surroundings,Detect,see,object,vehicle,,space,,Transportation,Connectionism
 76,Waymo's Auto-driving,Detect obstacles in surroundings,Detect,see,object,obstacle,,space,,Transportation,Connectionism
-76,Waymo's Auto-driving,Identify what the detected entities are,Identify,classfiy,,object,,space,,Transportation,Connectionism
-76,Waymo's Auto-driving,Identify possible routes to the destination,Identify,rank,,route,,-,,Transportation,Connectionism
-76,Waymo's Auto-driving,Act: recalculate constantly the best way of getting to the destination according to the conditions,Act,re-calculate,,route,,-,,Transportation,Connectionism
+76,Waymo's Auto-driving,Identify what the detected entities are,Identify,classify,,object,,space,,Transportation,Connectionism
+76,Waymo's Auto-driving,Identify possible routes to the destination,Identify,rank,,route,,,,Transportation,Connectionism
+76,Waymo's Auto-driving,Act: recalculate constantly the best way of getting to the destination according to the conditions,Act,re-calculate,,route,,,,Transportation,Connectionism
 77,Transit,Identify destination from the search term,Identify,classify,,destination,location,text,search box,Transportation,Bayesians
 77,Transit,Identify possible routes from starting point to destination,Identify,rank,,routes,,,,Transportation,Bayesians
-77,Transit,Forecast how long it will take to the destination,Forecast,predict,future value,time,,-,,Transportation,Bayesians
+77,Transit,Forecast how long it will take to the destination,Forecast,predict,future value,time,,,,Transportation,Bayesians
 78,PapaGo Translate,Identify language in text,Identify,classify,,language,,text,text field,Productivity,Connectionism
 78,PapaGo Translate,Identify words matching different language,Identify,classify,,words,different language,text,text field,Productivity,Connectionism
 78,PapaGo Translate,Identify phrases matching in different language,Identify,classify,,phrases,different language,text,text field,Productivity,Connectionism
@@ -241,17 +241,17 @@ no,example,most_detailed_description,verb,verb1,object1,object2,object3,media,me
 83,Google Allo Smart Reply,Identify words or text that the user will most likely type,Identify,rank,,words,,text,,Productivity,Connectionism
 84,SwiftKey Keyboard Text Prediction,Detect entities of text that the user typed,Detect,read,words,entity,,text,,Productivity,Connectionism
 84,SwiftKey Keyboard Text Prediction,Identify words or text that the user will most likely type,Identify,rank,,words,,text,,Productivity,Connectionism
-85,YouTube Trending,Identify a list of videos that a user may be intereststed in watching,Identify,curate,content,video,,-,,Entertainment,Bayesians
+85,YouTube Trending,Identify a list of videos that a user may be intereststed in watching,Identify,curate,content,video,,,,Entertainment,Bayesians
 86,iOS Memories in Photo,Detect people's face in images in the user's photo album,Detect,see,,person,face,image,,Productivity,Connectionism
-86,iOS Memories in Photo,Identify people in the images to classify the pictures by them,Identify,classify,,person,face,image,,Productivity,Connectionism
+86,iOS Memories in Photo,Identify people in the images to classifythe pictures by them,Identify,classify,,person,face,image,,Productivity,Connectionism
 87,Google Photos Person Classification,Detect faces in users' photo album,Detect,see,,person,face,image,,Productivity,Connectionism
 87,Google Photos Person Classification,Identify faces in users' photo album,Identify,classify,,person,face,image,,Productivity,Connectionism
-88,Airbnb Smart Pricing,Forecast the best price of accomodation,Forecast,predict,,price,place,- ,,Hospitality,Bayesians
+88,Airbnb Smart Pricing,Forecast the best price of accomodation,Forecast,predict,,price,place,,,Hospitality,Bayesians
 89,Seeing AI,Detect a person's face in 3D space,Detect,see,,person,face,space,camera,Public,Connectionism
 89,Seeing AI,Detect objects in 3D spacce,Detect,see,,item,,space,camera,Public,Connectionism
 89,Seeing AI,Identify who the person is ,Identify,classify,,person,face,space,camera,Public,Connectionism
 89,Seeing AI,Identify objects in the view that the camera is capturing,Identify,classify,,item,,space,camera,Public,Connectionism
-90,Plume Labs: Air Quality App,"Forecast what the air quality will be in the future, analyzing the given data. ",Forecast,predict,future value,air quality,,-,,Public,Bayesians
+90,Plume Labs: Air Quality App,"Forecast what the air quality will be in the future, analyzing the given data. ",Forecast,predict,future value,air quality,,,,Public,Bayesians
 91,Otter.ia ,Detect human voice in sound,Detect,hear,person,voice,,sound,,Productivity,Connectionism
 91,Otter.ia ,Detect words in sound,Detect,hear,,words,,sound,,Productivity,Connectionism
 91,Otter.ia ,Identify words in sound,Identify,classify,,words,,sound,,Productivity,Connectionism
@@ -261,16 +261,16 @@ no,example,most_detailed_description,verb,verb1,object1,object2,object3,media,me
 93,AIBO's Interaction,Identify person face surrounding,Identify,identify,,person,face,space,,Entertainment,Evolutionary computation
 93,AIBO's Interaction,Detect house space,Detect,sense,,house,,space,,Entertainment,Evolutionary computation
 93,AIBO's Interaction,Detect obstacles surrounding,Detect,sense,object,obstacle,,space,,Entertainment,Evolutionary computation
-93,AIBO's Interaction,Identify fastest route to the destination,Identify,rank,,route,,-,,Entertainment,Evolutionary computation
-93,AIBO's Interaction,Act: re-calculate its behaviors constantly updating its data in the cloud,Act,re-calculate,,behavior,,-,,Entertainment,Evolutionary computation
+93,AIBO's Interaction,Identify fastest route to the destination,Identify,rank,,route,,,,Entertainment,Evolutionary computation
+93,AIBO's Interaction,Act: re-calculate its behaviors constantly updating its data in the cloud,Act,re-calculate,,behavior,,,,Entertainment,Evolutionary computation
 94,Google Breast Cancer Screening Tool,Detect tumors in the image,Detect,see,object,tumor,,image,,Health,Connectionism
 94,Google Breast Cancer Screening Tool,Identify the risk of detected tumors,Identify,classify,,riskness,tumor,image,,Health,Connectionism
-95,PredPol,Forecast the likelihood of crimes occurring in each region.,Forecast,predict,,likelihood,crime,-,,Public,Bayesians
-96,Hotels.com ,Identify hotel rooms that the user might want to stay,Identify,rank,place,hotel,,-,,Hospitality,Bayesians
-97,Walmart Online Item Recommendation,Identify a set of items that customers who viewed the item also viewed,Identify,curate,,item,,-,,Shopping,Analogical modeling
+95,PredPol,Forecast the likelihood of crimes occurring in each region.,Forecast,predict,,likelihood,crime,,,Public,Bayesians
+96,Hotels.com ,Identify hotel rooms that the user might want to stay,Identify,rank,place,hotel,,,,Hospitality,Bayesians
+97,Walmart Online Item Recommendation,Identify a set of items that customers who viewed the item also viewed,Identify,curate,,item,,,,Shopping,Analogical modeling
 98,Duolingo CEFR Checker,Identify CEFR level of each word from text,Identify,classify,,Level,words,text,,Productivity,Analogical modeling
 98,Duolingo CEFR Checker,Identify users' English proficiency level,Identify,classify,,Proficiency,words,text,,Productivity,Analogical modeling
 99,Replika,Detect entities in the user's response,Detect,read,,entity,,text,user response,Health,Connectionism
-99,Replika,Identify intent of the user's response,Identify,classify ,,intent ,,text,user response,Health,Connectionism
+99,Replika,Identify intent of the user's response,Identify,classify,,intent ,,text,user response,Health,Connectionism
 99,Replika,Identify the best matching response to the question,Identify,rank,,response,,sound,speaker,Health,Connectionism
-100,AccuWeather,"Forecast what weather will be in the future, analyzing the given data. ",Forecast,predict,future value,weather,,-,,Public,Bayesians
+100,AccuWeather,"Forecast what weather will be in the future, analyzing the given data. ",Forecast,predict,future value,weather,,,,Public,Bayesians
