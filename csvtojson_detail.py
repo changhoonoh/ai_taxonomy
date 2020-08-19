@@ -36,17 +36,21 @@ with open('datastructure.csv', 'r') as f:
     header = next(reader)
 
     for row in reader:
-        no, example, verb, object2, media = row
+        no, example, most_detailed_description, verb, verb1, object1, object2, object3, media, media1, domain, algorithm = row
         root.child(verb, extra={'test' : 'Verb 1'}) \
+            .child(verb1, extra={'test' : 'Verb 2'}) \
+            .child(object1, extra={'test' : 'Object 1'}) \
             .child(object2, extra={'test' : 'Object 2'}) \
+            .child(object3, extra={'test' : 'Object 3'}) \
             .child(media, extra={'test' : 'Media 1'}) \
-            .child(example, extra={'test' : 'Example'})
-            # .child(most_detailed_description, extra={'test' : 'most_detailed_description'})
+            .child(media1, extra={'test' : 'Object 2'}) \
+            .child(example, extra={'test' : 'Example'}) \
+            .child(most_detailed_description, extra={'test' : 'most_detailed_description'})
             # .child(verb2, extra={'test' : 'Verb 2'}) \
             # .child(object1, extra={'test' : 'Object 1'}) \
             # .child(object3, extra={'test' : 'Object 3'}) \
-            # .child(media2, extra={'test' : 'Media 2'})
+            # .child(media2, extra={'test' : 'Media 2'}) \
 
 
-with open('json_file_name.json', 'w') as jsonFile:
+with open('json_file_name_from_example.json', 'w') as jsonFile:
     jsonFile.write(json.dumps(root.as_dict(), indent=4))

@@ -1,5 +1,5 @@
 // Get JSON data
-treeJSON = d3.json("json_file_name.json", function(error, treeData) {
+treeJSON = d3.json("json_file_name_from_example.json", function(error, treeData) {
 console.log(treeData);
 console.log(error);
 console.log(treeJSON);

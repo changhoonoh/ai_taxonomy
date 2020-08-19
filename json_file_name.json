@@ -1,5 +1,5 @@
 {
-    "name": "Capabilities",
+    "name": "Flare",
     "children": [
         {
             "name": "Detect",
@@ -22,7 +22,7 @@
                                     "test": "Example"
                                 },
                                 {
-                                    "name": "Email Entity Recognition",
+                                      "name": "Email Entity Recognition",
                                     "children": [
                                         {
                                             "name": "Detect phone number in email",
